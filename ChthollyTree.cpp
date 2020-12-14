@@ -1,3 +1,5 @@
+//Only works if data is random QAQ https://codeforces.com/contest/896/problem/C
+
 #define IT set<node>::iterator
 struct node {
     int ll, rr;
