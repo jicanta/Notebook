@@ -1,5 +1,7 @@
 int A[N][N], B[N][N], n, m;
 
+int lowbit(int n){ return n&(-n); }
+
 void upd(int x, int y, int v) {
   for(int i = x ; i <= n ; i += lowbit(i)) {
     for(int j = y ; j <= m ; j += lowbit(j)) {
