@@ -64,8 +64,8 @@ template<class T> struct SegTree{
 		if(tr <= l) return -1;
 		if(tr-tl == 1) return tl;
 		int tm = (tl+tr)/2;
-		int x = find(2*node+1, tl, tm, val, l);
-		if(x == -1) x = find(2*node+2, tm, tr, val, l);
+		int x = first_greater(2*node+1, tl, tm, val, l);
+		if(x == -1) x = first_greater(2*node+2, tm, tr, val, l);
 		return x;
 	}
 	
