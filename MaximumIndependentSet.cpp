@@ -3,7 +3,7 @@
 // maximum independent set in a general graph.
 // takes advantage of the duality
 // max. ind. set = max clique in complemenatry graph.
-// works in O(2^(n/2) * (n/2)^2) with birmask dp and meet in the middle.
+// works in O(2^(n/2) * (n/2)^2) with bitmask dp and meet in the middle.
  
 using namespace std;
  
