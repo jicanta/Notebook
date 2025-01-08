@@ -1,3 +1,5 @@
+// calculates the Lowest Common Ancestor between two nodes in a tree, using the binary lifting technique
+
 #include <bits/stdc++.h>
  
 using namespace std;
