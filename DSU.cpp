@@ -1,3 +1,5 @@
+// Disjoint-Set-Union implementation
+
 struct DSU {
     vi e; void init(int N) { e = vi(N,-1); }
     // get representive component, uses path compression
